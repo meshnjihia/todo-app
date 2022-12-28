@@ -6,8 +6,8 @@ const TodoItem = ({ id, title, status, updateTodo, deleteTodo }) => {
     <div
       className={`${
         status ? "bg-green-400" : "bg-red-400"
-      } w-[50%] rounded-xl text-white flex justify-between items-center cursor-pointer p-4`}
-    >
+      } w-[50%] rounded-xl text-white flex justify-center items-center cursor-pointer p-4`}
+    > 
       <div onClick={() => updateTodo(id, title)} className="flex-1">
         <p className="text-white ">{title}</p>
       </div>
