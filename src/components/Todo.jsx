@@ -41,8 +41,8 @@ const Todo = () => {
   return (
     <div>
       <div className="mt-5 flex flex-col gap-3">
-        <h1 className="font-bold text-center">Todo Application</h1>
-        <h1 className="font-thin text-center">Add Todo</h1>
+        <h1 className="font-bold text-center text-white">Todo Application</h1>
+        <h1 className="font-thin text-center text-gray-300">Add Todo</h1>
       </div>
       <div className="flex items-center bg-gray-500 rounded-xl">
         <input
